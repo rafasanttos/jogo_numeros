@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mochiy Pop P One", sans-serif;
+    
+}
+#nome{
+    position: absolute;
+    width: 200px;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    
+    color: white;
+    font-size: 7px;
+    text-align: center;
+}
+h1{
+    /* font-family: "Bungee Spice",sans-serif; */
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(255, 102, 0);
+}
+.grupao{
+    width: 600px;
+    margin: 0 auto;
+}
+#container-botoes{
+    margin-top: 100px;
+    width:100%;
+    height: 200px;
+    
+    
+}
+#input-valor{
+    text-align: center;
+}
+#container-saidas{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+#container-saidas h3{
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 16px;
+}
+#container-botoes div{
+    text-align: center;
+}
+#container-botoes ::placeholder{
+    text-align: center;
+    color: rgb(37, 207, 136);
+}
+#container-botoes div input{
+    background-color: rgb(13, 172, 79);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    border-style: none;
+    outline: none;
+    margin-bottom: 10px;
+    color: rgb(250, 250, 250);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .grupao{
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: rgb(5, 58, 119);
+    }
+}
